@@ -28,8 +28,7 @@ export default function Home() {
         <section id="companies" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
           <SectionHeader
             align="center"
-            eyebrow="Companies we’ve worked with"
-            title="Partners and supporters"
+            title={<span className="inline-flex items-center gap-2"><span className="text-[13px] font-medium tracking-wide uppercase text-[#7f2d82] bg-[#7f2d82]/10 ring-1 ring-[#7f2d82]/20 rounded-full px-3 py-1">Companies we’ve worked with</span><span className="sr-only">—</span><span className="hidden" /></span>}
             subtitle="We collaborate with industry partners, research groups, and startups to build real products."
           />
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
@@ -45,8 +44,7 @@ export default function Home() {
         <section id="about" className="bg-slate-50 border-y border-slate-200">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
             <SectionHeader
-              eyebrow="About"
-              title="Student makers building for impact"
+              title={<span className="inline-flex items-center gap-2"><span className="text-[13px] font-medium tracking-wide uppercase text-[#7f2d82] bg-[#7f2d82]/10 ring-1 ring-[#7f2d82]/20 rounded-full px-3 py-1">About</span></span>}
               subtitle="We’re a student-run community focused on hackathons, client projects, and workshops."
             />
             <div className="mt-6 grid md:grid-cols-3 gap-6">
@@ -72,8 +70,7 @@ export default function Home() {
         {/* Clients */}
         <section id="clients" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
           <SectionHeader
-            eyebrow="Our Clients"
-            title="Impact stories"
+            title={<span className="inline-flex items-center gap-2"><span className="text-[13px] font-medium tracking-wide uppercase text-[#7f2d82] bg-[#7f2d82]/10 ring-1 ring-[#7f2d82]/20 rounded-full px-3 py-1">Our Clients</span></span>}
             subtitle="Real collaborations with student ventures and community organizations."
           />
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -87,17 +84,16 @@ export default function Home() {
         </section>
 
         {/* Fellowship */}
-        <section id="fellowship" className="bg-gradient-to-b from-purple-50 to-white border-t border-slate-200">
+        <section id="fellowship" className="bg-gradient-to-b from-[#7f2d82]/5 to-white border-t border-slate-200">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
             <SectionHeader
               align="center"
-              eyebrow="Fellowship"
-              title="Level up with our fellowships"
+              title={<span className="inline-flex items-center gap-2"><span className="text-[13px] font-medium tracking-wide uppercase text-[#7f2d82] bg-[#7f2d82]/10 ring-1 ring-[#7f2d82]/20 rounded-full px-3 py-1">Fellowship</span></span>}
               subtitle="Semester-long tracks in product, design, and engineering with mentorship and real projects."
             />
             <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <button className="rounded-lg bg-purple-600 text-white px-4 py-2 text-sm font-medium shadow hover:bg-purple-700 transition">Apply now</button>
-              <button className="rounded-lg bg-white text-purple-700 px-4 py-2 text-sm font-medium ring-1 ring-purple-200 hover:bg-purple-50 transition">Get updates</button>
+              <button className="rounded-lg bg-[#7f2d82] text-white px-4 py-2 text-sm font-medium shadow hover:bg-[#6f2772] transition">Apply now</button>
+              <button className="rounded-lg bg-white text-[#7f2d82] px-4 py-2 text-sm font-medium ring-1 ring-[#7f2d82]/30 hover:bg-[#7f2d82]/5 transition">Get updates</button>
             </div>
           </div>
         </section>

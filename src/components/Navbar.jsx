@@ -16,7 +16,7 @@ export default function Navbar() {
   const linkClasses = ({ isActive }) =>
     `px-3 py-2 rounded-lg transition-colors text-sm font-medium ${
       isActive
-        ? 'text-purple-700 bg-purple-100'
+        ? 'text-[#7f2d82] bg-[#7f2d82]/10 ring-1 ring-[#7f2d82]/20'
         : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100'
     }`
 

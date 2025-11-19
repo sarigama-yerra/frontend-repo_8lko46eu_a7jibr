@@ -16,8 +16,8 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <div className="inline-flex items-center gap-2 rounded-full bg-purple-50 px-3 py-1.5 text-xs text-purple-700 ring-1 ring-purple-200">
-            <span className="h-1.5 w-1.5 rounded-full bg-purple-500" />
+          <div className="inline-flex items-center gap-2 rounded-full bg-[#7f2d82]/10 px-3 py-1.5 text-xs text-[#7f2d82] ring-1 ring-[#7f2d82]/20">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#7f2d82]" />
             Student-led product org at UIUC
           </div>
           <h1 className="mt-5 text-4xl sm:text-6xl font-bold tracking-tight text-slate-900">
@@ -28,10 +28,10 @@ export default function Hero() {
             Join our hackathons, collaborate with real clients, and level up your craft.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#companies" className="rounded-lg bg-purple-600 text-white px-4 py-2.5 text-sm font-medium shadow hover:bg-purple-700 transition">
+            <a href="#companies" className="rounded-lg bg-[#7f2d82] text-white px-4 py-2.5 text-sm font-medium shadow hover:bg-[#6f2772] transition">
               See our partners
             </a>
-            <a href="#fellowship" className="rounded-lg bg-purple-50 text-purple-700 px-4 py-2.5 text-sm font-medium ring-1 ring-purple-200 hover:bg-purple-100 transition">
+            <a href="#fellowship" className="rounded-lg bg-[#7f2d82]/10 text-[#7f2d82] px-4 py-2.5 text-sm font-medium ring-1 ring-[#7f2d82]/20 hover:bg-[#7f2d82]/15 transition">
               Explore fellowships
             </a>
           </div>
